@@ -1,0 +1,99 @@
+[
+    {
+        "nombreCategoria": "Hamburguesa",
+        "imagen": "/img/categorias/Hamburguesa.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871cff"
+            },
+            {
+                "$oid": "6453936462b032962c871d00"
+            },
+            {
+                "$oid": "6453936462b032962c871d01"
+            }
+        ]
+    },
+    {
+        "nombreCategoria": "Pizzas",
+        "imagen": "/img/categorias/pizza.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871d02"
+            },
+            {
+                "$oid": "6453936462b032962c871d03"
+            },
+            {
+                "$oid": "6453936462b032962c871d04"
+            },
+            {
+                "$oid": "6453936462b032962c871d05"
+            }
+        ]
+    },
+    {
+        "nombreCategoria": "Sushi",
+        "imagen": "/img/categorias/sushi.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871d06"
+            },
+            {
+                "$oid": "6453936462b032962c871d07"
+            },
+            {
+                "$oid": "6453936462b032962c871d08"
+            }
+        ]
+    },
+    {
+        "nombreCategoria": "Bebidas",
+        "imagen": "/img/categorias/bebidas.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871d09"
+            },
+            {
+                "$oid": "6453936462b032962c871d0a"
+            },
+            {
+                "$oid": "6453936462b032962c871d0b"
+            }
+        ]
+    },
+    {
+        "nombreCategoria": "Farmacia",
+        "imagen": "/img/categorias/farmacia.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871d0c"
+            },
+            {
+                "$oid": "6453936462b032962c871d0d"
+            },
+            {
+                "$oid": "6453936462b032962c871d0e"
+            },
+            {
+                "$oid": "6453936462b032962c871d0f"
+            }    
+        ]
+    },
+    {
+        "nombreCategoria": "Electronica",
+        "imagen": "/img/categorias/Electronica.jpg",
+        "empresas": [
+            {
+                "$oid": "6453936462b032962c871d10"
+            },
+            {
+                "$oid": "6453936462b032962c871d11"
+            },
+            {
+                "$oid": "6453936462b032962c871d12"
+            }
+        ]
+    }
+
+]

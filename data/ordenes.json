@@ -1,0 +1,38 @@
+[
+    {
+        "Norden": "001",
+        "nombreU": "Pana Miguel",
+        "contacto": "99556677",
+        "mPago": "Efectivo",
+        "lugar": "Res. Florida",
+        "Pedido": [
+            {
+                "nombreEmpresa": "McDonal's",
+                "nombreProducto": "Hamburguesa doble carne"
+            }
+        ],
+        "estado": true,
+        "repartidor": [
+            {
+                "$oid": "6453c04f62b032962c871d2c"
+            }
+        ]
+    },
+    {
+        "Norden": "002",
+        "nombreU": "Asalta Cunas",
+        "contacto": "88440022",
+        "mPago": "Tarjeta",
+        "lugar": "Cerro Grande, Zona 2",
+        "Pedido": [
+            {
+                "nombreEmpresa": "Jestereo",
+                "nombreProducto": "Televisor Samsung"
+            }
+        ],
+        "estado": false,
+        "repartidor": [
+            
+        ]
+    }
+]
