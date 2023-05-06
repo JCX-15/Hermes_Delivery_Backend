@@ -5,18 +5,27 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
+const categories_router_1 = __importDefault(require("./routers/categories.router"));
+const users_router_1 = __importDefault(require("./routers/users.router"));
+const companies_router_1 = __importDefault(require("./routers/companies.router"));
+const admins_router_1 = __importDefault(require("./routers/admins.router"));
+const drivers_router_1 = __importDefault(require("./routers/drivers.router"));
+const orders_router_1 = __importDefault(require("./routers/orders.router"));
 const database_1 = require("./utils/database");
+const cors_1 = __importDefault(require("cors"));
 dotenv_1.default.config();
 const database = new database_1.Database();
 const app = (0, express_1.default)();
 const port = process.env.PORT;
-/* app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({extended:true}));
-
-app.use('/categorias', categoriasRouter);
-app.use('/usuarios', usuariosRouter);
-app.use('/empresa', empresaRouter); */
+app.use((0, cors_1.default)());
+app.use(express_1.default.json());
+app.use(express_1.default.urlencoded({ extended: true }));
+app.use('/categories', categories_router_1.default);
+app.use('/users', users_router_1.default);
+app.use('/companies', companies_router_1.default);
+app.use('/admins', admins_router_1.default);
+app.use('/drivers', drivers_router_1.default);
+app.use('/orders', orders_router_1.default);
 app.listen(port, () => {
     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
