@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre": "Pedro Martinez",
+        "genero": "Masculino",
+        "telefono": "94857602",
+        "email": "mandaloriano@gmail.com",
+        "DNI": "0801199804567",
+        "Placa": "HDR9566",
+        "contraseña": "asd1234"
+    },
+    {
+        "Nombre": "Alejandro Magno",
+        "genero": "Helicoptero de ataque Apache",
+        "telefono": "33348703",
+        "email": "I_Love_Diogenes@gmail.com",
+        "DNI": "0512035604567",
+        "Placa": "BAD2386",
+        "contraseña": "asd1234"
+    }
+]
