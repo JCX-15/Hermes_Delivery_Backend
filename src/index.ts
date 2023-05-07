@@ -6,6 +6,7 @@ import companiesRouter from './routers/companies.router';
 import adminsRouter from './routers/admins.router';
 import driversRouter from './routers/drivers.router';
 import ordersRouter from './routers/orders.router';
+import drivereqRouter from './routers/drivereq.router';
 import { Database } from "./utils/database";
 import cors from 'cors';
 
@@ -28,6 +29,7 @@ app.use('/company', companiesRouter);
 app.use('/admins', adminsRouter);
 app.use('/drivers', driversRouter);
 app.use('/orders', ordersRouter);
+app.use('/drivereqs', drivereqRouter);
 
 app.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
