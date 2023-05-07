@@ -8,4 +8,5 @@ const users_controller_1 = require("../controllers/users.controller");
 const router = express_1.default.Router();
 router.get("/", users_controller_1.obtenerUsers);
 router.get("/:id", users_controller_1.obtenerUser);
+router.post("/", users_controller_1.addUser);
 exports.default = router;

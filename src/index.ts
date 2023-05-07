@@ -21,7 +21,10 @@ app.use(express.urlencoded({extended:true}));
 
 app.use('/categories', categoriesRouter);
 app.use('/users', usersRouter);
+app.use('/user', usersRouter);
+app.use('/addUser', usersRouter);
 app.use('/companies', companiesRouter);
+app.use('/company', companiesRouter);
 app.use('/admins', adminsRouter);
 app.use('/drivers', driversRouter);
 app.use('/orders', ordersRouter);

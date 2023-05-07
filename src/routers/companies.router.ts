@@ -3,8 +3,8 @@ import { obtenerCompany, obtenerCompanies } from "../controllers/companies.contr
 
 const router=express.Router();
 
-router.get("/", obtenerCompany);
+router.get("/", obtenerCompanies);
 
-router.get("/:id", obtenerCompanies);
+router.get("/:id", obtenerCompany);
 
 export default router;

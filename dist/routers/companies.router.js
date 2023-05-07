@@ -6,6 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const companies_controller_1 = require("../controllers/companies.controller");
 const router = express_1.default.Router();
-router.get("/", companies_controller_1.obtenerCompany);
-router.get("/:id", companies_controller_1.obtenerCompanies);
+router.get("/", companies_controller_1.obtenerCompanies);
+router.get("/:id", companies_controller_1.obtenerCompany);
 exports.default = router;
