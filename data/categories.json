@@ -1,7 +1,7 @@
 [
     {
         "nombreCategoria": "Hamburguesa",
-        "imagen": "/img/categorias/Hamburguesa.jpg",
+        "imagen": "img/categorias/Hamburguesa.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871cff"
@@ -16,7 +16,7 @@
     },
     {
         "nombreCategoria": "Pizzas",
-        "imagen": "/img/categorias/pizza.jpg",
+        "imagen": "img/categorias/pizza.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871d02"
@@ -34,7 +34,7 @@
     },
     {
         "nombreCategoria": "Sushi",
-        "imagen": "/img/categorias/sushi.jpg",
+        "imagen": "img/categorias/sushi.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871d06"
@@ -49,7 +49,7 @@
     },
     {
         "nombreCategoria": "Bebidas",
-        "imagen": "/img/categorias/bebidas.jpg",
+        "imagen": "img/categorias/bebidas.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871d09"
@@ -64,7 +64,7 @@
     },
     {
         "nombreCategoria": "Farmacia",
-        "imagen": "/img/categorias/farmacia.jpg",
+        "imagen": "img/categorias/farmacia.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871d0c"
@@ -82,7 +82,7 @@
     },
     {
         "nombreCategoria": "Electronica",
-        "imagen": "/img/categorias/Electronica.jpg",
+        "imagen": "img/categorias/Electronica.jpg",
         "empresas": [
             {
                 "$oid": "6453936462b032962c871d10"
@@ -95,5 +95,4 @@
             }
         ]
     }
-
 ]
