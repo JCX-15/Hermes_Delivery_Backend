@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "64545cc245500ef4aa583e6b"
+  },
+  "nombre": "Mr.Jorka",
+  "contraseña": "cEbG7190@P",
+  "correo": "Palpatine@admin.hermes.com"
+},{
+  "_id": {
+    "$oid": "64545cc245500ef4aa583e6a"
+  },
+  "nombre": "JC",
+  "contraseña": "Kin@315-jcpass",
+  "correo": "Imyurs@admin.hermes.com"
+}]

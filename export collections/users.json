@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "64545cff45500ef4aa583e93"
+  },
+  "nombre": "Asalta Cunas",
+  "contraseña": "gpLocont",
+  "correo": "Palpatine@admin.hermes.com",
+  "telefono": "88440022"
+},{
+  "_id": {
+    "$oid": "64545cff45500ef4aa583e92"
+  },
+  "nombre": "Pana Miguel",
+  "contraseña": "mypass",
+  "correo": "PN@gmail.com",
+  "telefono": "99556677"
+}]
